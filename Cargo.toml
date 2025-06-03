@@ -2,5 +2,9 @@
 name = "cogito-lab"
 version = "0.1.0"
 edition = "2024"
+authors = ["Lucas F.Martins <dyncoch@gmail.com>"]
 
 [dependencies]
+reqwest = "0.12.19"
+serde = "1.0.219"
+tokio = "1.45.1"
